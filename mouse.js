@@ -1,5 +1,5 @@
-function mouse(){
-	this.name:name;
+function mouse(name){
+	this.name=name;
 }
 mouse.prototype.die=function(){
 	this.dead=true;
